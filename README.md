@@ -70,5 +70,5 @@ If axon was never leaked i would have never met all these amazing people and i w
 # Need Help?
 
 Contact 
-ringarang#9486 
+Seppy#1337 
 on discord!
