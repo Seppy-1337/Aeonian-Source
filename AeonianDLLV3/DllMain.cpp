@@ -27,7 +27,7 @@ DWORD WINAPI aeopipe(PVOID lvpParameter)
 	HANDLE hPipe;
 	char buffer[999999];
 	DWORD dwRead;
-	hPipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\ReadMeYouGay"),
+		hPipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\Aeov3"),
 		PIPE_ACCESS_DUPLEX | PIPE_TYPE_BYTE | PIPE_READMODE_BYTE,
 		PIPE_WAIT,
 		1,
@@ -70,7 +70,7 @@ DWORD WINAPI aeocmdpipe(PVOID lvpParameter)
 	HANDLE hPipe;
 	char buffer[999999];
 	DWORD dwRead;
-	hPipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\ReadMeYouMegaGay"),
+	hPipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\Aeov3c"),
 		PIPE_ACCESS_DUPLEX | PIPE_TYPE_BYTE | PIPE_READMODE_BYTE,
 		PIPE_WAIT,
 		1,
